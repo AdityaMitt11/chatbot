@@ -1,0 +1,1 @@
+.env file cannot be uploaded because of openai api key rule violation.
