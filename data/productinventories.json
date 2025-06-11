@@ -1,0 +1,102 @@
+ [
+    {
+      "product_id": "PR1",
+      "stock": 99,
+      "location": "Warehouse 2"
+    },
+    {
+      "product_id": "PR2",
+      "stock": 98,
+      "location": "Warehouse 3"
+    },
+    {
+      "product_id": "PR3",
+      "stock": 97,
+      "location": "Warehouse 1"
+    },
+    {
+      "product_id": "PR4",
+      "stock": 96,
+      "location": "Warehouse 2"
+    },
+    {
+      "product_id": "PR5",
+      "stock": 95,
+      "location": "Warehouse 3"
+    },
+    {
+      "product_id": "PR6",
+      "stock": 94,
+      "location": "Warehouse 1"
+    },
+    {
+      "product_id": "PR7",
+      "stock": 93,
+      "location": "Warehouse 2"
+    },
+    {
+      "product_id": "PR8",
+      "stock": 92,
+      "location": "Warehouse 3"
+    },
+    {
+      "product_id": "PR9",
+      "stock": 91,
+      "location": "Warehouse 1"
+    },
+    {
+      "product_id": "PR10",
+      "stock": 90,
+      "location": "Warehouse 2"
+    },
+    {
+      "product_id": "PR11",
+      "stock": 89,
+      "location": "Warehouse 3"
+    },
+    {
+      "product_id": "PR12",
+      "stock": 88,
+      "location": "Warehouse 1"
+    },
+    {
+      "product_id": "PR13",
+      "stock": 87,
+      "location": "Warehouse 2"
+    },
+    {
+      "product_id": "PR14",
+      "stock": 86,
+      "location": "Warehouse 3"
+    },
+    {
+      "product_id": "PR15",
+      "stock": 85,
+      "location": "Warehouse 1"
+    },
+    {
+      "product_id": "PR16",
+      "stock": 84,
+      "location": "Warehouse 2"
+    },
+    {
+      "product_id": "PR17",
+      "stock": 83,
+      "location": "Warehouse 3"
+    },
+    {
+      "product_id": "PR18",
+      "stock": 82,
+      "location": "Warehouse 1"
+    },
+    {
+      "product_id": "PR19",
+      "stock": 81,
+      "location": "Warehouse 2"
+    },
+    {
+      "product_id": "PR20",
+      "stock": 80,
+      "location": "Warehouse 3"
+    }
+  ]

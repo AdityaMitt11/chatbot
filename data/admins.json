@@ -1,0 +1,102 @@
+[
+        {
+            "admin_id": "A1",
+            "name": "Admin 1",
+            "email": "admin1@shop.com"
+        },
+        {
+            "admin_id": "A2",
+            "name": "Admin 2",
+            "email": "admin2@shop.com"
+        },
+        {
+            "admin_id": "A3",
+            "name": "Admin 3",
+            "email": "admin3@shop.com"
+        },
+        {
+            "admin_id": "A4",
+            "name": "Admin 4",
+            "email": "admin4@shop.com"
+        },
+        {
+            "admin_id": "A5",
+            "name": "Admin 5",
+            "email": "admin5@shop.com"
+        },
+        {
+            "admin_id": "A6",
+            "name": "Admin 6",
+            "email": "admin6@shop.com"
+        },
+        {
+            "admin_id": "A7",
+            "name": "Admin 7",
+            "email": "admin7@shop.com"
+        },
+        {
+            "admin_id": "A8",
+            "name": "Admin 8",
+            "email": "admin8@shop.com"
+        },
+        {
+            "admin_id": "A9",
+            "name": "Admin 9",
+            "email": "admin9@shop.com"
+        },
+        {
+            "admin_id": "A10",
+            "name": "Admin 10",
+            "email": "admin10@shop.com"
+        },
+        {
+            "admin_id": "A11",
+            "name": "Admin 11",
+            "email": "admin11@shop.com"
+        },
+        {
+            "admin_id": "A12",
+            "name": "Admin 12",
+            "email": "admin12@shop.com"
+        },
+        {
+            "admin_id": "A13",
+            "name": "Admin 13",
+            "email": "admin13@shop.com"
+        },
+        {
+            "admin_id": "A14",
+            "name": "Admin 14",
+            "email": "admin14@shop.com"
+        },
+        {
+            "admin_id": "A15",
+            "name": "Admin 15",
+            "email": "admin15@shop.com"
+        },
+        {
+            "admin_id": "A16",
+            "name": "Admin 16",
+            "email": "admin16@shop.com"
+        },
+        {
+            "admin_id": "A17",
+            "name": "Admin 17",
+            "email": "admin17@shop.com"
+        },
+        {
+            "admin_id": "A18",
+            "name": "Admin 18",
+            "email": "admin18@shop.com"
+        },
+        {
+            "admin_id": "A19",
+            "name": "Admin 19",
+            "email": "admin19@shop.com"
+        },
+        {
+            "admin_id": "A20",
+            "name": "Admin 20",
+            "email": "admin20@shop.com"
+        }
+    ]
