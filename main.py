@@ -26,11 +26,20 @@ app.include_router(productinventories.router)
 app.include_router(reviews.router)
 app.include_router(shippings.router)
 app.include_router(users.router)
+# @app.post("/query")
+# async def process_query(request: QueryInput):
+#     user_input = request.query
+#     result = await agent_executor.ainvoke({"input": user_input})
+#     return {"response": result["output"]}
 @app.post("/query")
-async def process_query(request: QueryInput):
-    user_input = request.query
-    result = await agent_executor.ainvoke({"input": user_input})
-    return {"response": result["output"]}
+async def process_query(request:QueryInput):
+    user_input=request.query
+    result=await agent_executor.ainvoke({"input":user_input})
+    output=result["output"]
+    if isinstance(output,list) or isinstance(output,dict):
+        from pprint import pformat
+        output=pformat(output)
+    return {"response":output}
 @app.get("/")
 def root():
     return {"message":"MongoDB-FastAPI Integration"}
