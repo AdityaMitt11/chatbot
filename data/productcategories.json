@@ -1,82 +1,82 @@
- [
-    {
-      "category_id": "C1",
-      "name": "Sports"
-    },
-    {
-      "category_id": "C2",
-      "name": "Fashion"
-    },
-    {
-      "category_id": "C3",
-      "name": "Electronics"
-    },
-    {
-      "category_id": "C4",
-      "name": "Fashion"
-    },
-    {
-      "category_id": "C5",
-      "name": "Fashion"
-    },
-    {
-      "category_id": "C6",
-      "name": "Home & Kitchen"
-    },
-    {
-      "category_id": "C7",
-      "name": "Fashion"
-    },
-    {
-      "category_id": "C8",
-      "name": "Home & Kitchen"
-    },
-    {
-      "category_id": "C9",
-      "name": "Books"
-    },
-    {
-      "category_id": "C10",
-      "name": "Electronics"
-    },
-    {
-      "category_id": "C11",
-      "name": "Books"
-    },
-    {
-      "category_id": "C12",
-      "name": "Sports"
-    },
-    {
-      "category_id": "C13",
-      "name": "Books"
-    },
-    {
-      "category_id": "C14",
-      "name": "Sports"
-    },
-    {
-      "category_id": "C15",
-      "name": "Fashion"
-    },
-    {
-      "category_id": "C16",
-      "name": "Home & Kitchen"
-    },
-    {
-      "category_id": "C17",
-      "name": "Sports"
-    },
-    {
-      "category_id": "C18",
-      "name": "Fashion"
-    },
-    {
-      "category_id": "C19",
-      "name": "Sports"
-    },
-    {
-      "category_id": "C20",
-      "name": "Books"
-    }
-  ]
+[
+  {
+    "category_id": "C1",
+    "name": "Fashion"
+  },
+  {
+    "category_id": "C2",
+    "name": "Electronics"
+  },
+  {
+    "category_id": "C3",
+    "name": "Home & Kitchen"
+  },
+  {
+    "category_id": "C4",
+    "name": "Cars"
+  },
+  {
+    "category_id": "C5",
+    "name": "Sports"
+  },
+  {
+    "category_id": "C6",
+    "name": "Fashion"
+  },
+  {
+    "category_id": "C7",
+    "name": "Electronics"
+  },
+  {
+    "category_id": "C8",
+    "name": "Home & Kitchen"
+  },
+  {
+    "category_id": "C9",
+    "name": "Cars"
+  },
+  {
+    "category_id": "C10",
+    "name": "Sports"
+  },
+  {
+    "category_id": "C11",
+    "name": "Fashion"
+  },
+  {
+    "category_id": "C12",
+    "name": "Electronics"
+  },
+  {
+    "category_id": "C13",
+    "name": "Home & Kitchen"
+  },
+  {
+    "category_id": "C14",
+    "name": "Cars"
+  },
+  {
+    "category_id": "C15",
+    "name": "Sports"
+  },
+  {
+    "category_id": "C16",
+    "name": "Fashion"
+  },
+  {
+    "category_id": "C17",
+    "name": "Electronics"
+  },
+  {
+    "category_id": "C18",
+    "name": "Home & Kitchen"
+  },
+  {
+    "category_id": "C19",
+    "name": "Cars"
+  },
+  {
+    "category_id": "C20",
+    "name": "Sports"
+  }
+]

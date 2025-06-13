@@ -1,122 +1,142 @@
- [
-    {
-      "payment_id": "P1",
-      "order_id": "O1",
-      "amount": 120,
-      "method": "debit card"
-    },
-    {
-      "payment_id": "P2",
-      "order_id": "O2",
-      "amount": 140,
-      "method": "credit card"
-    },
-    {
-      "payment_id": "P3",
-      "order_id": "O3",
-      "amount": 160,
-      "method": "upi"
-    },
-    {
-      "payment_id": "P4",
-      "order_id": "O4",
-      "amount": 180,
-      "method": "cash on delivery"
-    },
-    {
-      "payment_id": "P5",
-      "order_id": "O5",
-      "amount": 200,
-      "method": "cash on delivery"
-    },
-    {
-      "payment_id": "P6",
-      "order_id": "O6",
-      "amount": 220,
-      "method": "debit card"
-    },
-    {
-      "payment_id": "P7",
-      "order_id": "O7",
-      "amount": 240,
-      "method": "cash on delivery"
-    },
-    {
-      "payment_id": "P8",
-      "order_id": "O8",
-      "amount": 260,
-      "method": "credit card"
-    },
-    {
-      "payment_id": "P9",
-      "order_id": "O9",
-      "amount": 280,
-      "method": "upi"
-    },
-    {
-      "payment_id": "P10",
-      "order_id": "O10",
-      "amount": 300,
-      "method": "debit card"
-    },
-    {
-      "payment_id": "P11",
-      "order_id": "O11",
-      "amount": 320,
-      "method": "debit card"
-    },
-    {
-      "payment_id": "P12",
-      "order_id": "O12",
-      "amount": 340,
-      "method": "upi"
-    },
-    {
-      "payment_id": "P13",
-      "order_id": "O13",
-      "amount": 360,
-      "method": "cash on delivery"
-    },
-    {
-      "payment_id": "P14",
-      "order_id": "O14",
-      "amount": 380,
-      "method": "credit card"
-    },
-    {
-      "payment_id": "P15",
-      "order_id": "O15",
-      "amount": 400,
-      "method": "upi"
-    },
-    {
-      "payment_id": "P16",
-      "order_id": "O16",
-      "amount": 420,
-      "method": "credit card"
-    },
-    {
-      "payment_id": "P17",
-      "order_id": "O17",
-      "amount": 440,
-      "method": "upi"
-    },
-    {
-      "payment_id": "P18",
-      "order_id": "O18",
-      "amount": 460,
-      "method": "upi"
-    },
-    {
-      "payment_id": "P19",
-      "order_id": "O19",
-      "amount": 480,
-      "method": "cash on delivery"
-    },
-    {
-      "payment_id": "P20",
-      "order_id": "O20",
-      "amount": 500,
-      "method": "debit card"
-    }
-  ]
+[
+  {
+    "payment_id": "P1",
+    "user_id": "U1",
+    "order_id": "O1",
+    "amount": 120,
+    "method": "upi"
+  },
+  {
+    "payment_id": "P2",
+    "user_id": "U2",
+    "order_id": "O2",
+    "amount": 140,
+    "method": "netbanking"
+  },
+  {
+    "payment_id": "P3",
+    "user_id": "U3",
+    "order_id": "O3",
+    "amount": 160,
+    "method": "wallet"
+  },
+  {
+    "payment_id": "P4",
+    "user_id": "U4",
+    "order_id": "O4",
+    "amount": 180,
+    "method": "card"
+  },
+  {
+    "payment_id": "P5",
+    "user_id": "U5",
+    "order_id": "O5",
+    "amount": 200,
+    "method": "upi"
+  },
+  {
+    "payment_id": "P6",
+    "user_id": "U6",
+    "order_id": "O6",
+    "amount": 220,
+    "method": "netbanking"
+  },
+  {
+    "payment_id": "P7",
+    "user_id": "U7",
+    "order_id": "O7",
+    "amount": 240,
+    "method": "wallet"
+  },
+  {
+    "payment_id": "P8",
+    "user_id": "U8",
+    "order_id": "O8",
+    "amount": 260,
+    "method": "card"
+  },
+  {
+    "payment_id": "P9",
+    "user_id": "U9",
+    "order_id": "O9",
+    "amount": 280,
+    "method": "upi"
+  },
+  {
+    "payment_id": "P10",
+    "user_id": "U10",
+    "order_id": "O10",
+    "amount": 300,
+    "method": "netbanking"
+  },
+  {
+    "payment_id": "P11",
+    "user_id": "U11",
+    "order_id": "O11",
+    "amount": 320,
+    "method": "wallet"
+  },
+  {
+    "payment_id": "P12",
+    "user_id": "U12",
+    "order_id": "O12",
+    "amount": 340,
+    "method": "card"
+  },
+  {
+    "payment_id": "P13",
+    "user_id": "U13",
+    "order_id": "O13",
+    "amount": 360,
+    "method": "upi"
+  },
+  {
+    "payment_id": "P14",
+    "user_id": "U14",
+    "order_id": "O14",
+    "amount": 380,
+    "method": "netbanking"
+  },
+  {
+    "payment_id": "P15",
+    "user_id": "U15",
+    "order_id": "O15",
+    "amount": 400,
+    "method": "wallet"
+  },
+  {
+    "payment_id": "P16",
+    "user_id": "U16",
+    "order_id": "O16",
+    "amount": 420,
+    "method": "card"
+  },
+  {
+    "payment_id": "P17",
+    "user_id": "U17",
+    "order_id": "O17",
+    "amount": 440,
+    "method": "upi"
+  },
+  {
+    "payment_id": "P18",
+    "user_id": "U18",
+    "order_id": "O18",
+    "amount": 460,
+    "method": "netbanking"
+  },
+  {
+    "payment_id": "P19",
+    "user_id": "U19",
+    "order_id": "O19",
+    "amount": 480,
+    "method": "wallet"
+  },
+  {
+    "payment_id": "P20",
+    "user_id": "U20",
+    "order_id": "O20",
+    "amount": 500,
+    "method": "card"
+  }
+]

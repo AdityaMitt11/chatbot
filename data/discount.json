@@ -1,102 +1,102 @@
- [
-    {
-      "discount_id": "D1",
-      "code": "DISCOUNT1",
-      "percentage": 6
-    },
-    {
-      "discount_id": "D2",
-      "code": "DISCOUNT2",
-      "percentage": 7
-    },
-    {
-      "discount_id": "D3",
-      "code": "DISCOUNT3",
-      "percentage": 8
-    },
-    {
-      "discount_id": "D4",
-      "code": "DISCOUNT4",
-      "percentage": 9
-    },
-    {
-      "discount_id": "D5",
-      "code": "DISCOUNT5",
-      "percentage": 10
-    },
-    {
-      "discount_id": "D6",
-      "code": "DISCOUNT6",
-      "percentage": 11
-    },
-    {
-      "discount_id": "D7",
-      "code": "DISCOUNT7",
-      "percentage": 12
-    },
-    {
-      "discount_id": "D8",
-      "code": "DISCOUNT8",
-      "percentage": 13
-    },
-    {
-      "discount_id": "D9",
-      "code": "DISCOUNT9",
-      "percentage": 14
-    },
-    {
-      "discount_id": "D10",
-      "code": "DISCOUNT10",
-      "percentage": 15
-    },
-    {
-      "discount_id": "D11",
-      "code": "DISCOUNT11",
-      "percentage": 16
-    },
-    {
-      "discount_id": "D12",
-      "code": "DISCOUNT12",
-      "percentage": 17
-    },
-    {
-      "discount_id": "D13",
-      "code": "DISCOUNT13",
-      "percentage": 18
-    },
-    {
-      "discount_id": "D14",
-      "code": "DISCOUNT14",
-      "percentage": 19
-    },
-    {
-      "discount_id": "D15",
-      "code": "DISCOUNT15",
-      "percentage": 5
-    },
-    {
-      "discount_id": "D16",
-      "code": "DISCOUNT16",
-      "percentage": 6
-    },
-    {
-      "discount_id": "D17",
-      "code": "DISCOUNT17",
-      "percentage": 7
-    },
-    {
-      "discount_id": "D18",
-      "code": "DISCOUNT18",
-      "percentage": 8
-    },
-    {
-      "discount_id": "D19",
-      "code": "DISCOUNT19",
-      "percentage": 9
-    },
-    {
-      "discount_id": "D20",
-      "code": "DISCOUNT20",
-      "percentage": 10
-    }
-  ]
+[
+  {
+    "discount_id": "D1",
+    "code": "DISCOUNT1",
+    "percentage": 6
+  },
+  {
+    "discount_id": "D2",
+    "code": "DISCOUNT2",
+    "percentage": 7
+  },
+  {
+    "discount_id": "D3",
+    "code": "DISCOUNT3",
+    "percentage": 8
+  },
+  {
+    "discount_id": "D4",
+    "code": "DISCOUNT4",
+    "percentage": 9
+  },
+  {
+    "discount_id": "D5",
+    "code": "DISCOUNT5",
+    "percentage": 10
+  },
+  {
+    "discount_id": "D6",
+    "code": "DISCOUNT6",
+    "percentage": 11
+  },
+  {
+    "discount_id": "D7",
+    "code": "DISCOUNT7",
+    "percentage": 12
+  },
+  {
+    "discount_id": "D8",
+    "code": "DISCOUNT8",
+    "percentage": 13
+  },
+  {
+    "discount_id": "D9",
+    "code": "DISCOUNT9",
+    "percentage": 14
+  },
+  {
+    "discount_id": "D10",
+    "code": "DISCOUNT10",
+    "percentage": 15
+  },
+  {
+    "discount_id": "D11",
+    "code": "DISCOUNT11",
+    "percentage": 16
+  },
+  {
+    "discount_id": "D12",
+    "code": "DISCOUNT12",
+    "percentage": 17
+  },
+  {
+    "discount_id": "D13",
+    "code": "DISCOUNT13",
+    "percentage": 18
+  },
+  {
+    "discount_id": "D14",
+    "code": "DISCOUNT14",
+    "percentage": 19
+  },
+  {
+    "discount_id": "D15",
+    "code": "DISCOUNT15",
+    "percentage": 5
+  },
+  {
+    "discount_id": "D16",
+    "code": "DISCOUNT16",
+    "percentage": 6
+  },
+  {
+    "discount_id": "D17",
+    "code": "DISCOUNT17",
+    "percentage": 7
+  },
+  {
+    "discount_id": "D18",
+    "code": "DISCOUNT18",
+    "percentage": 8
+  },
+  {
+    "discount_id": "D19",
+    "code": "DISCOUNT19",
+    "percentage": 9
+  },
+  {
+    "discount_id": "D20",
+    "code": "DISCOUNT20",
+    "percentage": 10
+  }
+]

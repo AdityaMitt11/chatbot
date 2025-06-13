@@ -26,15 +26,50 @@ app.include_router(productinventories.router)
 app.include_router(reviews.router)
 app.include_router(shippings.router)
 app.include_router(users.router)
+def format_output(data):
+    if isinstance(data, list) and data and isinstance(data[0], dict):
+        lines = []
+        for idx, item in enumerate(data, 1):
+            line = f"{idx}. " + ", ".join(f"{k.replace('_', ' ').title()}: {v}" for k, v in item.items())
+            lines.append(line)
+        return "\n".join(lines)
+    elif isinstance(data, dict):
+        return "\n".join(f"{k.replace('_', ' ').title()}: {v}" for k, v in data.items())
+    return str(data)
 @app.post("/query")
-async def process_query(request:QueryInput):
-    user_input=request.query
-    result=await agent_executor.ainvoke({"input":user_input})
-    output=result["output"]
-    if isinstance(output,list) or isinstance(output,dict):
-        from pprint import pformat
-        output=pformat(output)
-    return {"response":output}
+async def process_query(request: QueryInput):
+    user_input = request.query
+    result = await agent_executor.ainvoke({"input": user_input})
+    output = result["output"]
+    formatted_output = format_output(output)
+    return {"response": formatted_output}
+# @app.post("/query")
+# async def process_query(request: QueryInput):
+#     user_input = request.query
+#     result = await agent_executor.ainvoke({"input": user_input})
+    
+#     # This captures ALL intermediate messages & final output
+#     final_output = result.get("output", "")
+#     intermediate_steps = result.get("intermediate_steps", [])
+
+#     # Build full response history
+#     response_parts = []
+
+#     for step in intermediate_steps:
+#         # step is a tuple: (tool invocation, tool result)
+#         _, tool_result = step
+#         if isinstance(tool_result, list) or isinstance(tool_result, dict):
+#             response_parts.append(format_output(tool_result))
+#         else:
+#             response_parts.append(str(tool_result))
+
+#     # Append the final LLM-generated output as well
+#     response_parts.append(final_output)
+
+#     # Join everything
+#     full_response = "\n\n".join(response_parts)
+
+#     return {"response": full_response}
 @app.get("/")
 def root():
     return {"message":"MongoDB-FastAPI Integration"}
