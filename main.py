@@ -41,35 +41,26 @@ async def process_query(request: QueryInput):
     user_input = request.query
     result = await agent_executor.ainvoke({"input": user_input})
     output = result["output"]
-    formatted_output = format_output(output)
-    return {"response": formatted_output}
-# @app.post("/query")
-# async def process_query(request: QueryInput):
-#     user_input = request.query
-#     result = await agent_executor.ainvoke({"input": user_input})
-    
-#     # This captures ALL intermediate messages & final output
-#     final_output = result.get("output", "")
-#     intermediate_steps = result.get("intermediate_steps", [])
-
-#     # Build full response history
-#     response_parts = []
-
-#     for step in intermediate_steps:
-#         # step is a tuple: (tool invocation, tool result)
-#         _, tool_result = step
-#         if isinstance(tool_result, list) or isinstance(tool_result, dict):
-#             response_parts.append(format_output(tool_result))
-#         else:
-#             response_parts.append(str(tool_result))
-
-#     # Append the final LLM-generated output as well
-#     response_parts.append(final_output)
-
-#     # Join everything
-#     full_response = "\n\n".join(response_parts)
-
-#     return {"response": full_response}
+    if isinstance(output, list) and len(output) > 0 and isinstance(output[0], dict):
+        keys = list(output[0].keys())
+        data = [[item.get(k, "") for k in keys] for item in output]
+        if all(isinstance(row[1], (int, float)) for row in data if len(row) > 1):
+            return {
+                "response": {
+                    "type": "chart",
+                    "title": "Auto-generated Chart",
+                    "labels": [str(row[0]) for row in data],
+                    "values": [row[1] for row in data],
+                }
+            }
+        return {
+            "response": {
+                "type": "table",
+                "columns": keys,
+                "data": data,
+            }
+        }
+    return {"response": output}
 @app.get("/")
 def root():
     return {"message":"MongoDB-FastAPI Integration"}
